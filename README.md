@@ -1,13 +1,9 @@
-# SF_TRT_62
+# SF_TRT_62  (不在开发)
+# [Warning:该项目存在大量BUG, 大量*山代码，以及无意义的抽象层, 更多未被发现的坑,自备降压药]
 
 
-## 本项目为开源项目, 欢迎对本项目提出issues,或者pr
-### 因第一次正式使用github,不是很了解github的操作, 需要一定时间去适应
-### 代码提交需要符合以下规则
-* 不得包含侵入式的代码，如非法注入，非法HOOK，非法加载驱动等
-* 代码尽量保持规范，使用面向对象编程方法
-* 如使用他人的代码需要遵守其开源协议, 并在提交的代码头注释来源。
-    
+## 6.2 版本框架已完成90%，因为此项目是破坏游戏环境的作弊手段，所以我不会发布任何二进制文件。
+## 此后不再继续开发且不会完善此项目，确保牟利人士无法直接使用该项目获利。
 
 ## ->编译文档
 
@@ -16,12 +12,14 @@
 - 安装完成后才能进入下一步骤
 
 ### 2. 安装CUDA,cudann,TensorRt, [安装视频](https://www.bilibili.com/video/BV1pG411h743/?spm_id_from=333.999.0.0&vd_source=48769c3445e4933d438612c7cb69d59c)
+- 推荐使用cuda12, cunda8.9, TensorRt 8.6 GA
+- 切记，必须先安装VS的c++负载，才能安装CUDA，因为CUDA需要向VS安装一些插件
 
 ### 3. 安装[opencv](https://github.com/opencv/opencv/releases)
-- 双击安装后,在exe同级目录下解压出一个opencv文件夹,记住他
+- 双击安装后,在exe同级目录下解压出一个opencv文件夹,记住他，后面要用
   
 ### 4. 安装[cmake](https://github.com/Kitware/CMake/releases)
- - 版本要求>3.18
+ - 版本要求>3.18即可
 
 ### 5.修改SF_TRT_62源码下的CMakeLists.txt
 - 打开CMakeLists.txt
@@ -33,6 +31,8 @@
 ### 6. 打开cmake,按照[视频](https://www.bilibili.com/video/BV1pG411h743?p=3&vd_source=48769c3445e4933d438612c7cb69d59c)编译
 - 记得将Debug改为Release
 - 运行库选择MT
+
+## SF_62_Imgui.7z 为独立的项目, 是一个控制共享内存的项目
 
 ## [作者: Bilibili:随风而息](https://space.bilibili.com/120366874)
 ## 如果你觉得很酷,请给个赞+投币!
